@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("https://source.unsplash.com/1600x900/?landscape");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+button {
+    padding: 10px;
+    font-size: 50px;
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+    transition: 1s;
+}
+
+.buttons {
+    margin-top: 30px;
+    display: flex;
+    gap: 40px;
+    margin-bottom: 50px;
+}
+
+button:hover {
+    opacity: 0.7;
+    transform: translateY(-35px);
+}
+
+#rock {
+    background-color: #ffa07a;
+}
+
+#paper {
+    background-color: #ff4500;
+}
+
+#scissors {
+    background-color: #eee8aa;
+}
+
+p {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.your-score span {
+    color: red;
+}
+
+.machine-score span {
+    color: blue;
+}
